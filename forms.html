@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h2>TSRTC Bus Pass Application Form</h2>
+
+<form action="submit_pass.php" method="post" enctype="multipart/form-data">
+
+  <label>Full Name:</label><br>
+  <input type="text" name="fullname" required><br><br>
+
+  <label>Father's Name:</label><br>
+  <input type="text" name="fathername" required><br><br>
+
+  <label>Date of Birth:</label><br>
+  <input type="date" name="dob" required><br><br>
+
+  <label>Gender:</label><br>
+  <select name="gender" required>
+    <option value="" disabled>--Select--</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select><br><br>
+
+  <label>Aadhaar Number:</label><br>
+  <input type="text" name="aadhar" required><br><br>
+
+  <label>Institution Name:</label><br>
+  <input type="text" name="institution"><br><br>
+
+  <label>Year:</label><br>
+  <input type="text" name="class"><br><br>
+
+  <label>Pass Type:</label><br>
+  <select name="pass_type" required>
+    <option value="" disabled>--Select--</option>
+    <option value="general">General</option>
+    <option value="student">Student</option>
+    <option value="employee">Employee</option>
+  </select><br><br>
+
+  <label>From (Source):</label><br>
+  <input type="text" name="from" required><br><br>
+
+  <label>To (Destination):</label><br>
+  <input type="text" name="to" required><br><br>
+
+  <label>Upload Photo:</label><br>
+  <input type="file" name="photo" accept=".docx" required><br><br>
+
+  <label>Residential Address:</label><br>
+  <textarea name="address" rows="4" cols="40" required></textarea><br><br>
+
+  <input type="submit" value="Apply for Bus Pass">
+
+</form>
+
+</body>
+</html>
+

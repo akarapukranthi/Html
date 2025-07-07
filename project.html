@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio in pure HTML">
+    <meta name="keywords" content="HTML, Portfolio, Student">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Portfolio</title>
+</head>
+<body>
+<center>
+    
+<!-- Header Section -->
+<header>
+    <h1>Welcome to My Portfolio</h1>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#contact">Contact</a>
+</nav>
+</center>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <img src="./WhatsApp Image 2025-06-17 at 16.29.44_71bd5527.jpg" alt="My Photo" width="200">
+    <p>Hello! I'm a beginner learning web development. This is my simple HTML portfolio.</p>
+    <p>I enjoy coding and creating websites using only HTML at this stage.</p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>Python,C and DataStructures</li>
+        <li>Artifical Intelligence</li>
+    </ul>
+
+    <h2>Languages I Know</h2>
+    <ol>
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Telugu</li>
+    </ol>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>My Mini Projects</h2>
+    <table border="1px" cellpadding="12px" cellspacing="0px" width="100%">
+        <tr>
+            <th>Project Name</th>
+            <th>Technology Used</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>Rumor Detection On Online Social Networks</td>
+            <td>Python,TensorFlow, LSTM, Random Forest</td>
+            <td><a href="https://github.com/Sufian-Abu/social-media-rumour-detection-using-ml">View</a></td>
+        </tr>
+        <tr>
+            <td>AI Virtual Mouse Using Hand Gestures</td>
+            <td>Python, OpenCV, Mediapipe, PyAutoGUI</td>
+            <td><a href="https://github.com/singharyans754/AI-Virtual-Mouse">View</a></td>
+        </tr>
+    </table>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" display margin="8px" padding="10px" width="100%">
+        <!-- Text Input -->
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required width="100%">
+        <br>
+        <br>
+
+        <!-- Email Input -->
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+
+        <!-- Date Input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <br>
+
+        <!-- Time Input -->
+        <label for="time">Best Time to Contact:</label>
+        <input type="time" id="time" name="time">
+        <br>
+        <br>
+
+        <!-- Dropdown -->
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <br>
+        <br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea>
+        <br>
+        <br>
+
+        <!-- Checkbox -->
+        <label>
+            <input type="checkbox" name="subscribe" checked>
+            Subscribe to newsletter
+        </label>
+        <br>
+        <br>
+
+        <!-- Radio Buttons -->
+        <p>Rate My Website:</p>
+        <label><input type="radio" name="rating" value="good"> Good</label>
+        <label><input type="radio" name="rating" value="average"> Average</label>
+        <label><input type="radio" name="rating" value="poor"> Poor</label>
+
+        <!-- Submit -->
+        <br> <br><input type="submit" value="Send Message">
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 My HTML Portfolio. Email: <a href="akarapukranthi444@gmail.com">akarapukranthi444@gmail.com</a></p>
+</footer>
+
+</body>
+</html>

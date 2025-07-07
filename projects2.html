@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Student Portfolio Website">
+    <meta name="keywords" content="HTML, Student, Portfolio, Resume">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f8;
+            margin: 0;
+            padding: 20px;
+        }
+        header, nav, footer {
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, td, th {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+        form input, form select, form textarea {
+            display: block;
+            margin: 8px 0;
+            padding: 8px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>This site shows all HTML concepts in action!</p>
+</header>
+
+<nav>
+    <a href="#about" style="color:white;">About</a> |
+    <a href="#skills" style="color:white;">Skills</a> |
+    <a href="#projects" style="color:white;">Projects</a> |
+    <a href="#contact" style="color:white;">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="https://via.placeholder.com/150" alt="My Photo">
+    <p>Hello! I'm a web development enthusiast learning HTML, CSS, and JavaScript. This project demonstrates my understanding of HTML.</p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript Basics</li>
+        <li>Responsive Web Design</li>
+    </ul>
+
+    <h3>Languages Known:</h3>
+    <ol>
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Telugu</li>
+    </ol>
+</section>
+
+<section id="projects">
+    <h2>Mini Projects Table</h2>
+    <table>
+        <tr>
+            <th>Project Name</th>
+            <th>Technology</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>Calculator</td>
+            <td>HTML, CSS, JS</td>
+            <td><a href="#">View</a></td>
+        </tr>
+        <tr>
+            <td>To-Do List</td>
+            <td>HTML & JS</td>
+            <td><a href="#">View</a></td>
+        </tr>
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <label for="time">Preferred Contact Time:</label>
+        <input type="time" id="time" name="time">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <label>
+            <input type="checkbox" name="subscribe" checked>
+            Subscribe to newsletter
+        </label>
+
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Your Name | <a href="mailto:your.email@example.com" style="color: white;">Email Me</a></p>
+</footer>
+
+</body>
+</html>
